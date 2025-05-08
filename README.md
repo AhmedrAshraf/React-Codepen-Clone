@@ -17,13 +17,13 @@ A live code editor built with React, mimicking the core functionality of Codepen
 ## Getting Started
 
 ### Prerequisites
-- Node.js v16 or later
+- Node.js v18 or later
 - npm or yarn
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-codepen-clone.git
+   git clone https://github.com/ahmedrashraf/react-codepen-clone.git
 Install dependencies:
 
 bash
@@ -41,8 +41,7 @@ Project Structure
 /src
 ├── components/       # Reusable components
 │   ├── Editor/       # Code editor components
-│   ├── Preview/      # Output preview
-│   └── Toolbar/      # Control buttons
+│   └── App/          # Control buttons
 ├── contexts/         # React contexts
 ├── hooks/            # Custom hooks
 ├── utils/            # Utility functions
@@ -76,7 +75,7 @@ MIT
 
 
 ### Key Customization Points:
-1. Replace `yourusername` with your GitHub username
+1. Replace `ahmedrashraf` with your GitHub username
 2. Add a demo gif/screenshot (create a `/public/demo.gif` file)
 3. Update the "Built With" section with your actual dependencies
 4. Add any special deployment instructions if needed
