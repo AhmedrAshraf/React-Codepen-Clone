@@ -95,3 +95,12 @@ MIT
 - Add a "Troubleshooting" section if you have common issues
 - Include a "Roadmap" section for planned features
 - Add acknowledgments if you followed any tutorials
+
+
+
+lines added  by abdul samad  (101 to 105)
+Responsive Design Enhancement:
+"Improved the mobile view layout to ensure better accessibility on smaller devices."
+
+Local Storage Optimization:
+"Optimized data saving to local storage, reducing unnecessary updates."
