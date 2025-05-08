@@ -1,3 +1,4 @@
+'use strict';
 var isCallable = require('../internals/is-callable');
 
 module.exports = function (it) {

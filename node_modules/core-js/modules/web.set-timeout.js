@@ -1,9 +1,12 @@
+'use strict';
 var $ = require('../internals/export');
-var global = require('../internals/global');
-var setTimeout = require('../internals/schedulers-fix').setTimeout;
+var globalThis = require('../internals/global-this');
+var schedulersFix = require('../internals/schedulers-fix');
 
-// ie9- setTimeout additional parameters fix
+var setTimeout = schedulersFix(globalThis.setTimeout, true);
+
+// Bun / IE9- setTimeout additional parameters fix
 // https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dom-settimeout
-$({ global: true, bind: true, forced: global.setTimeout !== setTimeout }, {
+$({ global: true, bind: true, forced: globalThis.setTimeout !== setTimeout }, {
   setTimeout: setTimeout
 });

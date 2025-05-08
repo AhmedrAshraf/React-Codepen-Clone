@@ -1,3 +1,4 @@
+'use strict';
 var $ = require('../internals/export');
 var fails = require('../internals/fails');
 var expm1 = require('../internals/math-expm1');
@@ -7,8 +8,8 @@ var exp = Math.exp;
 var E = Math.E;
 
 var FORCED = fails(function () {
-  // eslint-disable-next-line es-x/no-math-sinh -- required for testing
-  return Math.sinh(-2e-17) != -2e-17;
+  // eslint-disable-next-line es/no-math-sinh -- required for testing
+  return Math.sinh(-2e-17) !== -2e-17;
 });
 
 // `Math.sinh` method

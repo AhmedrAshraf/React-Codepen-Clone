@@ -1,5 +1,6 @@
+'use strict';
 var $ = require('../internals/export');
-var NATIVE_SYMBOL = require('../internals/native-symbol');
+var NATIVE_SYMBOL = require('../internals/symbol-constructor-detection');
 var fails = require('../internals/fails');
 var getOwnPropertySymbolsModule = require('../internals/object-get-own-property-symbols');
 var toObject = require('../internals/to-object');

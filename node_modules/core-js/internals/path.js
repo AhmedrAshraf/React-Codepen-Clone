@@ -1,3 +1,4 @@
-var global = require('../internals/global');
+'use strict';
+var globalThis = require('../internals/global-this');
 
-module.exports = global;
+module.exports = globalThis;
