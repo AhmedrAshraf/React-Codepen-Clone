@@ -37,17 +37,18 @@ npm start
 yarn start
 Open http://localhost:3000 to view in browser.
 
-Project Structure
+## Project Structure
+
 /src
-├── components/       # Reusable components
-│   ├── Editor/       # Code editor components
-│   └── App/          # Control buttons
-├── contexts/         # React contexts
-├── hooks/            # Custom hooks
-├── utils/            # Utility functions
-├── App.js            # Main component
-└── index.js          # Entry point
-Built With
+├── components/       # Reusable components <br>
+│   ├── Editor/       # Code editor components <br>
+│   └── App/          # Control buttons <br>
+├── contexts/         # React contexts <br>
+├── hooks/            # Custom hooks <br>
+├── utils/            # Utility functions <br>
+├── App.js            # Main component <br>
+└── index.js          # Entry point <br>
+Built With <br>
 React
 
 Monaco Editor (VS Code editor component)
