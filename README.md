@@ -24,7 +24,6 @@ A live code editor built with React, mimicking the core functionality of Codepen
 ### Installation
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/AhmedrAshraf/React-Codepen-Clone.git
    ```
 2. Install dependencies:
