@@ -17,49 +17,55 @@ A live code editor built with React, mimicking the core functionality of Codepen
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js v18 or later
 - npm or yarn
 
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ahmedrashraf/react-codepen-clone.git
-Install dependencies:
 
-bash
-npm install
-# or
-yarn install
-Running the App
-bash
-npm start
-# or
-yarn start
-Open http://localhost:3000 to view in browser.
+1. Clone the repository:
+   git clone https://github.com/AhmedrAshraf/React-Codepen-Clone.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Running the App
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+4. Open http://localhost:3000 to view in browser.
 
 ## Project Structure
-
+```bash
 /src
-├── components/       # Reusable components <br>
-│   ├── Editor/       # Code editor components <br>
-│   └── App/          # Control buttons <br>
-├── contexts/         # React contexts <br>
-├── hooks/            # Custom hooks <br>
-├── utils/            # Utility functions <br>
-├── App.js            # Main component <br>
-└── index.js          # Entry point <br>
-Built With <br>
-React
+├── components/    # Reusable components
+│   ├── Editor/   # Code editor components
+│   └── App/      # Control buttons
+├── contexts/      # React contexts
+├── hooks/         # Custom hooks
+├── utils/         # Utility functions
+├── App.js         # Main component
+└── index.js       # Entry point
+```
 
-Monaco Editor (VS Code editor component)
+## Built With
+- React
 
-Codemirror (alternative editor option)
+- Monaco Editor (VS Code editor component)
 
-Styled Components
+- Codemirror (alternative editor option)
 
-React Split Pane
+- Styled Components
 
-Available Scripts
+- React Split Pane
+
+## Available Scripts
+```bash
 npm start - Runs the app in development mode
 
 npm test - Launches test runner
@@ -67,22 +73,24 @@ npm test - Launches test runner
 npm run build - Builds for production
 
 npm run eject - Ejects from CRA (advanced)
+```
 
-Contributing
+## Contributing
 Pull requests are welcome! For major changes, please open an issue first.
 
-License
+## License
 MIT
 
+## Key Customization Points:
 
-### Key Customization Points:
 1. Replace `ahmedrashraf` with your GitHub username
 2. Add a demo gif/screenshot (create a `/public/demo.gif` file)
 3. Update the "Built With" section with your actual dependencies
 4. Add any special deployment instructions if needed
 5. Include environment variables if your project uses them
 
-### Recommended Extras:
+## Recommended Extras:
+
 - Add a "Troubleshooting" section if you have common issues
 - Include a "Roadmap" section for planned features
 - Add acknowledgments if you followed any tutorials
