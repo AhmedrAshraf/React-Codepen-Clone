@@ -51,3 +51,26 @@ body {
 iframe {
   border: 3px solid rgb(82, 224, 243);
 }
+
+.console-pane {
+  height: 150px;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: monospace;
+  padding: 0.5rem;
+  overflow-y: auto;
+  border-top: 2px solid #333;
+}
+
+.log-log {
+  color: #9cdcfe;
+}
+
+.log-error {
+  color: #f44747;
+}
+
+.log-warn {
+  color: #ce9178;
+}
+
