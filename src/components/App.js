@@ -8,8 +8,11 @@ export default function App() {
   const [css, setCss] = useLocalStorage("css", "");
   const [js, setJs] = useLocalStorage("js", "");
   const [srcDoc, setSrcDoc] = useState("");
+  const [livePreview, setLivePreview] = useState(true);
+  
 
   useEffect(() => {
+    if (!livePreview) return;
     const timeout = setTimeout(() => {
       setSrcDoc(`<html>
 			<body>${html}</body>
@@ -19,10 +22,20 @@ export default function App() {
     }, 250);
 
     return () => clearTimeout(timeout);
-  }, [html, css, js]);
+  }, [html, css, js,livePreview]);
 
   return (
     <>
+        <div style={{ padding: "0.5rem" }}>
+        <label>
+          <input
+            type="checkbox"
+            checked={livePreview}
+            onChange={() => setLivePreview(!livePreview)}
+          />
+          Live Preview
+        </label>
+      </div>
       <div className="pane top-pane">
         <Editor
           language="xml"
@@ -56,3 +69,4 @@ export default function App() {
     </>
   );
 }
+
